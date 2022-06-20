@@ -1,0 +1,17 @@
+#scrollup {
+    position: fixed;
+    bottom: 100px;
+    right: 70px;
+    font-size: 60px;
+    z-index: 9999;
+    color: #a83e4c;
+}
+
+.isShownBtn {
+    opacity: 1;
+    transition: 0.4s;
+
+    &_hide {
+        opacity: 0;
+    }
+}
