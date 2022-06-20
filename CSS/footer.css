@@ -1,0 +1,150 @@
+@import url(fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background: #343436;
+    display: block;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.footer-one, .footer-two, .footer-three {
+    width: 30%;
+    justify-content: space-between;
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.footer-logo img {
+    height: auto;
+    max-width: 90%;
+    display: block; 
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    padding-top: 20px;
+    color: #969696;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 150%;
+    max-width: 90%;
+}
+
+.footer-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+
+ul > li a {
+    font-family: 'Open SansSubset', sans-serif; 
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600; 
+}
+
+.footer-two > ul > li:hover a {
+    text-decoration: none;
+    color: #ee1936d4;
+    transition: all 0.4s ease;
+    
+}
+
+.footer-three {
+    text-align: center;
+}
+
+.footer-h6 {
+    text-align: center;
+    font-family: 'Open SansSubset', sans-serif; 
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-icon {
+    font-size: 27px;
+    cursor: pointer;
+    display: inline-block;
+}
+    
+.footer-icon i {
+    color: #ee1936d4;
+    padding: 20px 10px;
+}
+    
+.fa-facebook:hover, .fa-instagram:hover, .fa-youtube:hover {
+    color: #ee1936d4;
+    opacity: 0.8;
+    transition: all 0.4s ease;
+}
+
+.hr-footer {
+    width: 90%;
+    border-color: #969696;
+    margin: auto;
+}
+
+.footer-rights-div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+.footer-rights {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #969696;
+}
+
+@media all and (max-width: 800px) {
+    .footer-container {
+        width: 90%;
+        flex-direction: column;
+    }
+    .footer-one, .footer-two, .footer-three {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-logo img {
+        height: auto;
+        max-width: 100%;
+        cursor: pointer;
+    }
+    .footer-text {
+        text-align: center;
+        font-size: 14px;
+    }
+    .footer-two {
+        display: block;
+        text-align: center
+    }
+    .footer-three {
+        text-align: center;
+    }
+}

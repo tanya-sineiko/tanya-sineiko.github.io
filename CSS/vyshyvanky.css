@@ -1,0 +1,152 @@
+@import url(fonts.css);
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.vyshyvanky_blocks {
+	margin-top: 200px;
+}
+
+.vyshyvanky_section {
+	max-width: 100%;
+	min-height: 100%;
+    margin-top: 161px;
+	margin-bottom: 161px;
+	background-image: url('..//img/pattern.png');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.vyshyvanky_container {
+	margin-top: 120px;
+	min-height: 100%;
+	width: 80%;
+	display: flex;
+	margin: 0 auto;
+}
+
+.vyshyvanky_content-section {
+	float: right;
+	width: 40%;
+	padding: 0px 0 20px 10px;
+	margin: 0px 75px;
+}
+
+.vyshyvanky_img {
+	float: left;
+	width: 50%;
+}
+
+.vyshyvanky_img img {
+	max-width: 100%;
+}
+
+.vyshyvanky_content-section .vyshyvanky_title h2 {
+	font-family: "Open SansSubset",sans-serif;
+	font-size: 50px;
+	color: #4a4a4d;
+	font-weight: 600; 
+}
+
+.point {
+	color: #a83e4cd4;
+}
+
+.second-separator {
+	width: 80px;
+	margin-top: 5px;
+}
+
+.vyshyvanky_content-section .vyshyvanky_content .first-paragraph {
+	margin-top: 15px;
+	font-family: "RobotoSubset",sans-serif;
+    font-size: 19px;
+    line-height: 1.58;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #4a4a4d;
+}
+
+.vyshyvanky_content-section .vyshyvanky_content .second-paragraph {
+	margin-top: 15px;
+	color: #7d7d7d;
+	font-size: 17px;
+    line-height: 1.73;
+    font-weight: 400;
+	font-family: "Open SansSubset",sans-serif;
+}
+
+.vyshyvanky_content-section .social {
+	margin: 30px 0 0 0;
+}
+
+.vyshyvanky_content-section .social i {
+	color:#8C7568;
+	font-size: 30px;
+	padding:0px 5px;
+}
+
+.vyshyvanky_content-section .social i:hover {
+	color: #343436;
+    opacity: 0.8;
+}
+
+@media (max-width: 1325px){
+	.vyshyvanky_section {
+		width: 100%;
+		display: flex;
+		margin: 0 auto;
+		padding-top: 50px;
+	}
+
+	.vyshyvanky_container {
+		max-width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 35px;
+   }
+   .vyshyvanky_img {
+    float: left;
+    width: 70%;
+}
+
+	.vyshyvanky_content-section {
+		width: 70%;
+		padding-top: 30px;
+	}
+	.vyshyvanky_content-section .vyshyvanky_title h2 {
+		margin-top: -30px;
+		text-align: left;
+		font-size: 35px;
+	}
+
+	.second-separator {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 60px;
+	}
+
+	.vyshyvanky_content-section .vyshyvanky_content .first-paragraph {
+		margin-top: 5px;
+		font-size: 16px;
+		line-height: 1.58;
+		font-weight: 600;
+	}
+
+	.vyshyvanky_content-section .vyshyvanky_content .second-paragraph {
+		font-size: 16px;
+		line-height: 1.73;
+		font-weight: 400;
+	}
+
+	.vyshyvanky_content-section .social {
+		text-align: left;
+	}
+}
